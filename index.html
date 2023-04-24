@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        } 
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body >
+   
+    <div >
+        <div>
+            <ul style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+                <li >
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#title">Table of content</a>
+                </li>
+                <li>
+                    <a  href="#topmountain">Top 5 Highest Mountains in the World</a>
+                </li>
+            </ul>
+        </div>
+        <hr/>
+        <div style="display: flex; align-items: center; justify-content: center;flex-direction: column;">
+            <h3 id="title">Top 5 Highest Mountains in the World</h3>
+            <table id="topmountain" width="750px" height="300px">
+                <caption>Data Source: Wikipedia</caption>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Height</th>
+                    <th>Location</th>
+                    <th>First Ascent</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td style="display: flex; align-items: center;gap:12px">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/288px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg" alt="mount everest"/>
+                         Mount Everest</td>
+                    <td>8848</td>
+                    <td>Nepal/China</td>
+                    <td>1953</td>
+                    
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td style="display: flex; align-items: center;gap:12px">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Chogori.jpg/272px-Chogori.jpg" alt="mount k2"/>
+                        K2
+                    </td>
+                    <td>8611</td>
+                    <td>Pakistan/China</td>
+                    <td>1953</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td style="display: flex; align-items: center;gap:12px">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Kangchenjunga%2C_India.jpg/272px-Kangchenjunga%2C_India.jpg" alt="kangchenjunga"/>
+                        Kangchenjunga</td>
+                    <td>8586</td>
+                    <td>Nepal/China</td>
+                    <td>1955</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td style="display: flex; align-items: center;gap:12px">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lhotse-fromChukhungRi.jpg/272px-Lhotse-fromChukhungRi.jpg"
+                            alt="Lhotse" />
+                        Lhotse
+                    </td>
+                    
+                    <td>8516</td>
+                    <td>Nepal/China</td>
+                    <td>1956</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td style="display: flex; align-items: center;gap:12px">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Makalu.jpg/272px-Makalu.jpg"
+                            alt="Makalu" />
+                        Makalu
+                    </td>
+                    <td>8485</td>
+                    <td>Nepal/China</td>
+                    <td>1955</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
